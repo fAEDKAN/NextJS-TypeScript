@@ -1,8 +1,11 @@
-export const CardProduct = (props: any) => {
+import { CardProps } from "@/models/props";
+import style from "./product.module.css";
+
+export const CardProduct = (props: CardProps) => {
     return (
-        <div>
-            <h2>{props.product.name}</h2>
-            <b>$ {props.product.price}</b>
+        <div className={style.card}>
+            <h2 className={style.title}>{props.product.name}</h2>
+            <b className={style.price}>$ {props.product.price}</b>
         </div>
     );
 };

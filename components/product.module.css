@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    background-color: gainsboro;
+    width: 300px;
+    height: 8vh;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.title {
+    color: black;
+    font-size: 0.9rem;
+}
+
+.price {
+    color: black;
+    font-size: 0.85rem;
+}
